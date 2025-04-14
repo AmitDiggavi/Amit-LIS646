@@ -1,12 +1,5 @@
-window.onload = function () {
-    console.log("Page loaded successfully!");
-    
-    // Call your functions here
-    greetUser();
-};
-
-// Example function
-function greetUser() {
-    let userName = prompt("What's your name?");
-    alert("Hello, " + userName + "! Welcome to the site.");
+function greet1(name) {
+  return "Hello, " + name + "!";
 }
+let user = prompt("What's your name?");
+console.log(greet1(user));
